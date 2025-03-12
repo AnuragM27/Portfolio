@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="https://i.postimg.cc/2y4TTN9t/Profpic.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>Hello, I'm Anurag</h2>
+        <p>Data Analyst passionate about transforming data into actionable insights.</p>
+        <a href="#projects" class="cta-button">Explore My Work</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Customer Reservation Analysis Dashboard</h3>
+            <p>Built a Power BI dashboard that visualizes Contoso's Customer Reservation Sales.</p>
+            <iframe title="POWER BI PROJECT" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTRmNDZmODMtNGY1NS00YzEyLThiNTAtYWY1NDAwN2RjMjI3IiwidCI6IjVlYmFkMjVlLWZmZDItNDUzNS04YzVlLWY2MmUxNjEyZmY3ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Power BI & Data Visualization</li>
+            <li>SQL & Database Management</li>
+            <li>Python for Data Analysis</li>
+            <li>Machine Learning & Data Science</li>
+            <li>Excel Automation</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mnqeywwz" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anurag. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

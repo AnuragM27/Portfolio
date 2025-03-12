@@ -1,0 +1,154 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: #1e293b;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 1rem 0.5rem;
+    background: linear-gradient(135deg, #1e293b, #3b82f6);
+    color: white;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #60a5fa;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #2563eb;
+}
+
+/* Project Section */
+.projects {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.project-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    background: #e2e8f0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+/* Contact Form */
+.contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e293b;
+    color: white;
+}
